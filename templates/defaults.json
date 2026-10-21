@@ -1,0 +1,21 @@
+{
+  "company_name": "U-G APPAREL",
+  "address": "Pindi Stop Bansa Wala Bazaar,\nopp Qadir Palace, Kot Lakhpat, Lahore",
+  "quotation_address": "Nasrat Road Near Appex\nCollege Peco Road Kot Lakhpat Lahore",
+  "phone": "+92 307 4110372",
+  "secondary_phone": "+92 322 8457020",
+  "ntn": "3520204756215",
+  "strn": "",
+  "email": "",
+  "bank_name": "MCB",
+  "bank_branch": "GULAB DEVI HOSPITAL BRANCH",
+  "account_title": "UG APPAREL",
+  "account_number": "1336072571012839",
+  "iban": "",
+  "logo_url": "",
+  "declaration": "A minimum advance payment of 60% of the total order value must be made at the time of order confirmation. The remaining balance (60%) must be paid in full at least 10 days before collecting the goods.",
+  "invoice_prefix": "INV-",
+  "quotation_prefix": "Q-",
+  "sales_tax_rate": "18",
+  "advance_tax_rate": "0.5"
+}

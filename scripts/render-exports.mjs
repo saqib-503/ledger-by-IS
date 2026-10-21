@@ -1,0 +1,2 @@
+import {chromium} from 'playwright';import fs from 'node:fs/promises';
+const browser=await chromium.launch({channel:'chrome',headless:true});try{for(const kind of ['invoice','quotation'])for(const count of [1,60]){const page=await browser.newPage();await page.setContent(await fs.readFile(`artifacts/${kind}-${count}.html`,'utf8'));await page.pdf({path:`artifacts/${kind}-${count}.pdf`,printBackground:true,preferCSSPageSize:true});await page.close();}}finally{await browser.close();}
